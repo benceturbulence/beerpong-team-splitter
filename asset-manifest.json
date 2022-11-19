@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/beerpong-team-splitter/static/css/main.3e709161.css",
+    "main.js": "/beerpong-team-splitter/static/js/main.9fe8615c.js",
+    "static/media/header.jpg": "/beerpong-team-splitter/static/media/header.eea6504ad3e19ee74f0b.jpg",
+    "static/media/logo.png": "/beerpong-team-splitter/static/media/logo.5e1e28446c246cceff7d.png",
+    "static/media/light.png": "/beerpong-team-splitter/static/media/light.a5dc22e808880948eed5.png",
+    "static/media/dark.png": "/beerpong-team-splitter/static/media/dark.7bb7986a0f1e49019bf6.png",
+    "static/media/header-logo.png": "/beerpong-team-splitter/static/media/header-logo.eaf58a3ac193856dc4ba.png",
+    "index.html": "/beerpong-team-splitter/index.html",
+    "main.3e709161.css.map": "/beerpong-team-splitter/static/css/main.3e709161.css.map",
+    "main.9fe8615c.js.map": "/beerpong-team-splitter/static/js/main.9fe8615c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e709161.css",
+    "static/js/main.9fe8615c.js"
+  ]
+}
