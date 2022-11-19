@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from 'react'
+import { AppContext } from './appContext'
+import './App.css'
+import Header from './components/Header'
+import StartUI from './components/StartUI'
+import ResultUI from './components/ResultUI'
 
-function App() {
+export default function App() {
+
+  const { isStarted, darkMode } = useContext(AppContext)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div className={`${darkMode ? "dark" : "light"} wrapper`}>
+      <Header />
 
-export default App;
+      {!isStarted ? <StartUI /> : <ResultUI />}
+
+    </div>
+  )
+}
